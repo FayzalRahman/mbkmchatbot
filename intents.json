@@ -1,0 +1,870 @@
+{
+    "intents": [
+        {
+            "tag": "clearscreen",
+            "patterns": [
+                "sih layar"
+            ],
+            "responses": [
+                "..."
+            ]
+        },
+        {
+            "tag": "mahasiswa",
+            "patterns": [
+                "nrp",
+                "mahasiswa",
+                "siapa mahasiswa",
+                "apa departemen mahasiswa",
+                "apa jurusan mahasiswa",
+                "tanggal lahir mahasiswa",
+                "berapa ipk mahasiswa",
+                "berapa ips mahasiswa",
+                "siapa dosen wali mahasiswa",
+                "angkatan mahasiswa",
+                "tahun masuk mahasiswa",
+                "mata kuliah mahasiswa"
+            ],
+            "responses": [
+                "Mahasiswa dengan NRP tersebut tidak ditemukan."
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "jam berapa sekarang",
+                "tanggal berapa sekarang",
+                "datetime",
+                "tanggal",
+                "waktu",
+                "beri tahu aku tanggal hari",
+		        "hari",
+		        "hari apa sekarang"
+            ],
+            "responses": [
+                "Date and Time"
+            ]
+        },
+        {
+            "tag": "1",
+            "patterns": [
+                "apa mbkm",
+                "yang maksud mbkm",
+                "apa manfaat utama program mbkm",
+                "apa mbkm apa dasar program",
+                "sebut definisi mbkm"
+            ],
+            "responses": [
+                "Merdeka Belajar \u2013 Kampus Merdeka (MBKM), merupakan kebijakan Menteri Pendidikan dan Kebudayaan, yang bertujuan mendorong mahasiswa untuk menguasai berbagai keilmuan yang berguna untuk memasuki dunia kerja. Kampus Merdeka memberikan kesempatan bagi mahasiswa untuk memilih mata kuliah yang akan mereka ambil."
+            ]
+        },
+        {
+            "tag": "2",
+            "patterns": [
+                "apa tuju mbkm",
+                "program mbkm ada",
+                "apa ingin capai perintah indonesia lalu implementasi program mbkm",
+                "apa tuju ikut program mbkm",
+                "apa tuju program mbkm",
+                "apa tuju utama mbkm",
+                "tuju mbkm buat apa",
+                "apa tuju ada program mbkm"
+            ],
+            "responses": [
+                "Tujuan dari program MBKM adalah untuk meningkatkan kompetensi lulusan, baik soft skills maupun hard skills, agar lebih siap dan relevan dengan kebutuhan zaman, menyiapkan lulusan sebagai pemimpin masa depan bangsa yang unggul dan berkepribadian. Program-program experiential learning dengan jalur yang fleksibel diharapkan akan dapat memfasilitasi mahasiswa mengembangkan potensinya sesuai dengan passion dan bakatnya."
+            ]
+        },
+        {
+            "tag": "3",
+            "patterns": [
+                "apa giat mbkm",
+                "apa bentuk giat mbkm",
+                "apa mbkm sedia perintah terima its",
+                "apa jenis jenis giat mbkm",
+                "apa jenis jenis giat mbkm paling populer ini",
+                "jenis jenis mbkm dapat ambil",
+                "program mbkm dapat berapa jenis",
+                "apa yang masuk program mbkm",
+                "apa giat ada mbkm"
+            ],
+            "responses": [
+                "Bentuk kegiatan pembelajaran MBKM sesuai dengan Permendikbud No 3 Tahun 2020 Pasal 15 ayat 1 dapat dilakukan di dalam Program Studi dan di luar Program Studi meliputi: \n1.\tPertukaran Pelajar/Student exchange \n2.\tMagang Industri/Praktik Kerja/Internship \n3.\tAsistensi Mengajar di Satuan Pendidikan \n4.\tPenelitian/Riset \n5.\tProyek Kemanusiaan \n6.\tKegiatan Wirausaha \n7.\tStudi/Proyek Independen \n8.\tMembangun Desa/Kuliah Kerja Nyata Tematik Kuliah Kerja Nyata Tematik (KKNT)"
+            ]
+        },
+        {
+            "tag": "4",
+            "patterns": [
+                "apa tuju tukar ajar",
+                "program tukar ajar masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu tukar ajar konteks kembang terampil tahu",
+                "apa tuju ikut tukar ajar",
+                "dengan terap tukar ajar wujud sdm kualitas",
+                "apa tuju laksana tukar ajar"
+            ],
+            "responses": [
+                "Tujuan pertukaran pelajar antara lain:\n1)\tBelajar lintas kampus (dalam dan luar negeri), tinggal bersama dengan keluarga di kampus tujuan, wawasan mahasiswa tentang ke-Bhinneka Tunggal Ika akan makin berkembang, persaudaraan lintas budaya dan suku akan semakin kuat.\n2)\tMembangun persahabatan mahasiswa antar daerah, suku, budaya, dan agama, sehingga meningkatkan semangat persatuan dan kesatuan bangsa.\n3)\tMenyelenggarakan transfer ilmu pengetahuan untuk menutupi disparitas pendidikan baik antar perguruan tinggi dalam negeri, maupun kondisi pendidikan tinggi dalam negeri dengan luar negeri."
+            ]
+        },
+        {
+            "tag": "5",
+            "patterns": [
+                "apa tuju program magang",
+                "apa tuju magang industri",
+                "apa tuju praktik kerja",
+                "apa tuju internship",
+                "program magang masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu magang konteks kembang terampil tahu",
+                "apa tuju ikut magang",
+                "apa tuju magang",
+                "dengan terap magang wujud sdm kualitas",
+                "apa tuju laksana magang"
+            ],
+            "responses": [
+                "Tujuan program magang antara lain:\nProgram magang 1-2 semester, memberikan pengalaman yang cukup kepada mahasiswa, pembelajaran langsung di tempat kerja (experiential learning). Selama magang mahasiswa akan mendapatkan hardskills (keterampilan, complex problem solving, analytical skills, dsb.), maupun soft skills (etika profesi/kerja, komunikasi, kerjasama, dsb.). Sementara industri mendapatkan talenta yang bila cocok nantinya bisa langsung di-recruit, sehingga mengurangi biaya recruitment dan training awal/ induksi. Mahasiswa yang sudah mengenal tempat kerja tersebut akan lebih mantab dalam memasuki dunia kerja dan karirnya. Melalui kegiatan ini, permasalahan industri akan mengalir ke perguruan tinggi sehingga meng-update bahan ajar dan pembelajaran dosen serta topik-topik riset di perguruan tinggi akan makin relevan."
+            ]
+        },
+        {
+            "tag": "6",
+            "patterns": [
+                "tempat magang"
+            ],
+            "responses": [
+                "Kegiatan pembelajaran magang yang dilakukan melalui kerja sama dengan mitra antara lain perusahaan, yayasan nirlaba, organisasi multilateral, institusi pemerintah, maupun perusahaan rintisan (startup)."
+            ]
+        },
+        {
+            "tag": "7",
+            "patterns": [
+                "apa syarat magang industri",
+                "minimal semester berapa magang industri",
+                "ada minimal semester ambil mahasiswa ikut magang",
+                "mahasiswa pilih ikut magang panjang masa studi atau ada batas waktu tentu",
+                "berapa minimal semester dapat ikut magang",
+                "berapa minimal semester ikut magang",
+                "berapa minimal semester bisa ikut magang",
+                "brp minimal semester yg tempuh magang",
+                "minimal semester berapa bisa ikut magang",
+                "semester berapa dapat ikut program magang",
+                "semester berapa dapat ikut magang"
+            ],
+            "responses": [
+                "Persyaratan mengikuti bentuk kegiatan pembelajaran Magang Industri:\nMinimal berada pada semester 6"
+            ]
+        },
+        {
+            "tag": "8",
+            "patterns": [
+                "apa latar belakang asistensi ajar",
+                "bagaimana asistensi ajar ada",
+                "bagaimana asistensi ajar kontribusi beri mahasiswa kontrol lebih besar atas didik",
+                "apa latar belakang darimana datang ide asistensi ajar",
+                "asistensi ajar nilai optimal tingkat mutu didik indonesia",
+                "apa latar belakang asistensi ajar mbkm laksana",
+                "apa latar belakang ada asistensi ajar"
+            ],
+            "responses": [
+                "Latar belakang adanya asistensi mengajar adalah kualitas pendidikan dasar dan menengah di Indonesia masih sangat rendah (PISA 2018 peringkat Indonesia no 7 dari bawah). Jumlah satuan pendidikan di Indonesia sangat banyak dan beragam permasalahan baik satuan pendidikan formal, non-formal maupun informal. "
+            ]
+        },
+        {
+            "tag": "9",
+            "patterns": [
+                "asistensi ajar laku"
+            ],
+            "responses": [
+                "Kegiatan pembelajaran dalam bentuk asistensi mengajar dilakukan oleh mahasiswa di satuan pendidikan seperti sekolah dasar, menengah, maupun atas. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil."
+            ]
+        },
+        {
+            "tag": "10",
+            "patterns": [
+                "apa tuju asistensi ajar",
+                "asistensi ajar masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu asistensi ajar konteks kembang terampil tahu",
+                "apa tuju ikut asistensi ajar",
+                "dengan terap asistensi ajar wujud sdm kualitas",
+                "apa tuju laksana asistensi ajar"
+            ],
+            "responses": [
+                "Tujuan program asistensi mengajar di satuan pendidikan antara lain:\n1)\tMemberikan kesempatan bagi mahasiswa yang memiliki minat dalam bidang pendidikan untuk turut serta mengajarkan dan memperdalam ilmunya dengan cara menjadi guru di satuan pendidikan.\n2)\tMembantu meningkatkan pemerataan kualitas pendidikan, serta relevansi pendidikan dasar dan menengah dengan pendidikan tinggi dan perkembangan zaman."
+            ]
+        },
+        {
+            "tag": "11",
+            "patterns": [
+                "apa latar belakang teliti",
+                "apa latar belakang riset",
+                "bagaimana teliti ada",
+                "bagaimana teliti kontribusi beri mahasiswa kontrol lebih besar atas didik",
+                "apa latar belakang darimana datang ide teliti",
+                "teliti nilai optimal tingkat mutu didik indonesia",
+                "apa latar belakang teliti mbkm laksana",
+                "apa latar belakang ada teliti"
+            ],
+            "responses": [
+                "Latar belakang adanya penelitian/riset adalah bagi mahasiswa yang memiliki passion menjadi peneliti, merdeka belajar dapat diwujudkan dalam bentuk kegiatan penelitian di Lembaga riset/pusat studi. Melalui penelitian mahasiswa dapat membangung cara berpikir kritis, hal yang sangat dibutuhkan untuk berbagai rumpun keilmuan pada jenjang pendidikan tinggi. Dengan kemampuan berpikir kritis mahasiswa akan lebih mendalami, memahami, dan mampu melakukan metode riset secara lebih baik. Bagi mahasiswa yang memiliki minat dan keinginan berprofesi dalam bidang riset, peluang untuk magang di laboratorium pusat riset merupakan dambaan mereka. Selain itu, Laboratorium/ Lembaga riset terkadang kekurangan asisten peneliti saat mengerjakan proyek riset yang berjangka pendek (1 semester \u2013 1 tahun)."
+            ]
+        },
+        {
+            "tag": "12",
+            "patterns": [
+                "apa tuju teliti",
+                "apa tuju riset",
+                "teliti masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu teliti konteks kembang terampil tahu",
+                "apa tuju ikut teliti",
+                "dengan terap teliti wujud sdm kualitas",
+                "apa tuju laksana teliti"
+            ],
+            "responses": [
+                "Tujuan program penelitian/riset antara lain:\n1)\tPenelitian mahasiswa diharapkan dapat ditingkatkan mutunya. Selain itu, pengalaman mahasiswa dalam proyek riset yang besar akan memperkuat pool talent peneliti secara topikal.\n2)\tMahasiswa mendapatkan kompetensi penelitian melalui pembimbingan langsung oleh peneliti di lembaga riset/pusat studi.\n3)\tMeningkatkan ekosistem dan kualitas riset di laboratorium dan lembaga riset Indonesia dengan memberikan sumber daya peneliti dan regenerasi peneliti sejak dini."
+            ]
+        },
+        {
+            "tag": "13",
+            "patterns": [
+                "apa latar belakang proyek manusia",
+                "bagaimana proyek manusia ada",
+                "bagaimana proyek manusia kontribusi beri mahasiswa kontrol lebih besar atas didik",
+                "apa latar belakang darimana datang ide proyek manusia",
+                "proyek manusia nilai optimal tingkat mutu didik indonesia",
+                "apa latar belakang proyek manusia mbkm laksana",
+                "apa latar belakang ada proyek manusia"
+            ],
+            "responses": [
+                "Latar belakang adanya proyek kemanusiaan adalah Indonesia banyak mengalami bencana alam, baik berupa gempa bumi, erupsi gunung berapi, tsunami, bencana hidrologi, dsb. Perguruan tinggi selama ini banyak membantu mengatasi bencana melalui program-program kemanusiaan. Pelibatan mahasiswa selama ini bersifat voluntary dan hanya berjangka pendek. Selain itu, banyak lembaga Internasional (UNESCO, UNICEF, WHO, dsb) yang telah melakukan kajian mendalam dan membuat pilot project pembangunan di Indonesia maupun negara berkembang lainnya. Mahasiswa dengan jiwa muda, kompetensi ilmu, dan minatnya dapat menjadi \u201cfoot soldiers\u201d dalam proyek-proyek kemanusiaan dan pembangunan lainnya baik di Indonesia maupun di luar negeri."
+            ]
+        },
+        {
+            "tag": "14",
+            "patterns": [
+                "apa tuju proyek manusia",
+                "proyek manusia masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu proyek manusia konteks kembang terampil tahu",
+                "apa tuju ikut proyek manusia",
+                "dengan terap proyek manusia wujud sdm kualitas",
+                "apa tuju laksana proyek manusia"
+            ],
+            "responses": [
+                "Tujuan program proyek kemanusiaan antara lain:\n1.\tMenyiapkan mahasiswa unggul yang menjunjung tinggi nilai kemanusiaan dalam menjalankan tugas berdasarkan agama, moral, dan etika.\n2.\tMelatih mahasiswa memiliki kepekaan sosial untuk menggali dan menyelami permasalahan yang ada serta turut memberikan solusi sesuai dengan minat dan keahliannya masing-masing."
+            ]
+        },
+        {
+            "tag": "15",
+            "patterns": [
+                "apa latar belakang giat wirausaha",
+                "bagaimana wirausaha ada",
+                "bagaimana wirausaha kontribusi beri mahasiswa kontrol lebih besar atas didik",
+                "apa latar belakang wirausaha",
+                "apa latar belakang darimana datang ide wirausaha",
+                "wirausaha nilai optimal tingkat mutu didik indonesia",
+                "apa latar belakang wirausaha mbkm laksana",
+                "apa latar belakang ada wirausaha"
+            ],
+            "responses": [
+                "Latar belakang adanya kegiatan wirausaha adalah berdasarkan Global Entrepreneurship Index (GEI) pada tahun 2018, Indonesia hanya memiliki skor 21% wirausahawan dari berbagai bidang pekerjaan, atau peringkat 94 dari 137 negara yang disurvei. Sementara menurut riset darn IDN Research Institute tahun 2019, 69,1% millennial di Indonesia memiliki minat untuk berwirausaha. Sayangnya, potensi wirausaha bagi generasi milenial tersebut belum dapat dikelola dengan baik selama ini. Kebijakan Kampus Merdeka mendorong pengembangan minat wirausaha mahasiswa dengan program kegiatan belajar yang sesuai."
+            ]
+        },
+        {
+            "tag": "16",
+            "patterns": [
+                "apa tuju giat wirausaha",
+                "wirausaha masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu wirausaha konteks kembang terampil tahu",
+                "apa tuju ikut wirausaha",
+                "apa tuju wirausaha",
+                "dengan terap wirausaha wujud sdm kualitas",
+                "apa tuju laksana wirausaha"
+            ],
+            "responses": [
+                "Tujuan program kegiatan wirausaha antara lain:\n1)\tMemberikan mahasiswa\tyang\tmemiliki\tminat\tberwirausaha untuk mengembangkan usahanya lebih dini dan terbimbing.\n2)\tMenangani permasalahan pengangguran yang menghasilkan pengangguran intelektual dari kalangan sarjana."
+            ]
+        },
+        {
+            "tag": "17",
+            "patterns": [
+                "apa latar belakang studi independen",
+                "apa latar belakang proyek independen",
+                "bagaimana studi independen ada",
+                "bagaimana studi independen kontribusi beri mahasiswa kontrol lebih besar atas didik",
+                "apa latar belakang darimana datang ide studi independen",
+                "studi independen nilai optimal tingkat mutu didik indonesia",
+                "apa latar belakang studi independen mbkm laksana",
+                "apa latar belakang ada studi independen"
+            ],
+            "responses": [
+                "Latar belakang adanya studi independen adalah banyak mahasiswa yang memiliki passion untuk mewujudkan karya besar yang dilombakan di tingkat internasional atau karya dari ide yang inovatif. Idealnya, studi/ proyek independen dijalankan untuk menjadi pelengkap dari kurikulum yang sudah diambil oleh mahasiswa. Perguruan tinggi atau fakultas juga dapat menjadikan studi independen untuk melangkapi topik yang tidak termasuk dalam jadwal perkuliahan, tetapi masih tersedia dalam silabus program studi atau fakultas. Kegiatan proyek independent dapat dilakukan dalam bentuk kerja kelompok lintas disiplin keilmuan."
+            ]
+        },
+        {
+            "tag": "18",
+            "patterns": [
+                "apa tuju studi independen",
+                "apa tuju proyek independen",
+                "studi independen masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu studi independen konteks kembang terampil tahu",
+                "apa tuju ikut studi independen",
+                "dengan terap studi independen wujud sdm kualitas",
+                "apa tuju laksana studi independen"
+            ],
+            "responses": [
+                "Tujuan program studi/proyek independen antara lain:\n1)\tMewujudkan gagasan mahasiswa dalam mengembangkan produk inovatif yang menjadi gagasannya.\n2)\tMenyelenggarakan pendidikan berbasis riset dan pengembangan (R&D).\n3)\tMeningkatkan prestasi mahasiswa dalam ajang nasional dan internasional."
+            ]
+        },
+        {
+            "tag": "19",
+            "patterns": [
+                "minimal semester berapa studi independen",
+                "minimal semester berapa proyek independen",
+                "ada minimal semester ambil mahasiswa ikut studi independen",
+                "mahasiswa pilih ikut studi independen panjang masa studi atau ada batas waktu tentu",
+                "berapa minimal semester dapat ikut studi independen",
+                "berapa minimal semester ikut studi independen",
+                "berapa minimal semester bisa ikut studi independen",
+                "brp minimal semester yg tempuh studi independen",
+                "minimal semester berapa bisa ikut studi independen",
+                "semester berapa dapat ikut program studi independen",
+                "semester berapa dapat ikut studi independen"
+            ],
+            "responses": [
+                "Persyaratan mengikuti BKP Studi Independent:\nMinimal berada pada semester 6"
+            ]
+        },
+        {
+            "tag": "20",
+            "patterns": [
+                "apa kknt",
+                "apa kkn tematik",
+                "apa kkn",
+                "apa bangun desa"
+            ],
+            "responses": [
+                "Merupakan suatu bentuk pendidikan dengan cara memberikan pengalaman belajar kepada mahasiswa untuk hidup di tengah masyarakat di luar kampus, yang secara langsung bersama-sama masyarakat mengidentifikasi potensi dan menangani masalah sehingga diharapkan mampu mengembangkan potensi desa/daerah dan meramu solusi untuk masalah yang ada di desa. Kegiatan KKNT diharapkan dapat mengasah softskill kemitraan, kerjasama tim lintas disiplin/keilmuan (lintas kompetensi), dan leadership mahasiswa dalam mengelola program pembangunan di wilayah perdesaan. "
+            ]
+        },
+        {
+            "tag": "21",
+            "patterns": [
+                "apa latar belakang kknt",
+                "apa latar belakang kkn tematik",
+                "apa latar belakang kkn",
+                "apa latar belakang bangun desa",
+                "bagaimana kkn ada",
+                "bagaimana kkn kontribusi beri mahasiswa kontrol lebih besar atas didik",
+                "apa latar belakang darimana datang ide kkn",
+                "kkn nilai optimal tingkat mutu didik indonesia",
+                "apa latar belakang kkn mbkm laksana",
+                "apa latar belakang ada kkn"
+            ],
+            "responses": [
+                "Latar belakang adanya KKNT adalah  untuk mendukung kerja sama bersama Kementerian Desa PDTT serta Kementerian/stakeholder lainnya. Pemerintah melalui Kementerian Desa PDTT menyalurkan dana desa 1 milyar per desa kepada sejumlah 74.957 desa di Indonesia, yang berdasarkan data Indeks Desa Membangun (IDM) tahun 2019, terdapat desa sangat tertinggal sebanyak 6.549 dan desa tertinggal 20.128. Pelaksanaan KKNT dapat dilakukan pada desa sangat tertinggal, tertinggal dan berkembang, yang sumber daya manusianya belum memiliki kemampuan perencanaan pembangunan dengan fasilitas dana yang besar tersebut. Sehingga efektivitas penggunaan dana desa untuk menggerakkan pertumbuhan ekonomi masih perlu ditingkatkan, salah satunya melalui mahasiswa yang dapat menjadi sumber daya manusia yang lebih memberdayakan dana desa."
+            ]
+        },
+        {
+            "tag": "22",
+            "patterns": [
+                "apa tuju kknt",
+                "apa tuju kkn tematik",
+                "apa tuju kkn",
+                "apa tuju bangun desa",
+                "kkn masuk dalam program mbkm",
+                "apa ingin capai mahasiswa lalu kkn konteks kembang terampil tahu",
+                "apa tuju ikut kkn",
+                "dengan terap kkn wujud sdm kualitas",
+                "apa tuju laksana kkn"
+            ],
+            "responses": [
+                "Tujuan program membangun desa/kuliah kerja nyata antara lain:\n1.\tKehadiran mahasiswa selama 6 \u2013 12 bulan dapat memberikan kesempatan kepada mahasiswa untuk memanfaatkan ilmu pengetahuan, teknologi, dan keterampilan yang dimilikinya bekerjasama dengan banyak pemangku kepentingan di lapangan.\n2.\tMembantu percepatan pembangunan di wilayah pedesaan bersama dengan Kementerian Desa PDTT."
+            ]
+        },
+        {
+            "tag": "23",
+            "patterns": [
+                "berapa jumlah maksimal sks dapat konversi luar program studi",
+                "berapa jumlah sks dapat konversi mahasiswa",
+                "dapat beda jumlah maksimal sks dapat konversi antara guru tinggi beda",
+                "berapa maksimal sks dapat konversi luar program studi",
+                "berapa maksimal sks dapat ambil mbkm",
+                "brp jumlah maksimal sks yg konversi",
+                "berapa sks maksimal konversi",
+                "berapa total sks dapat konversi liar program studi",
+                "berapa sks dapat konversi",
+                "berapa maksimal sks bisa konversi luar prodi"
+            ],
+            "responses": [
+                "1.\tJumlah maksimum satuan kredit semester (sks) akumulatif yang dapat dikonversikan dari luar program studi ke mata kuliah program studi adalah 40 sks, baik dari dalam ITS maupun dari luar ITS.\n2.\tKetentuan pada butir 1 tidak berlaku untuk mahasiswa yang mengikuti program joint/double degree, dimana mahasiswa hanya diwajibkan mengambil minimal 72 sks di dalam program studi, selebihnya dapat diambil di luar program studi."
+            ]
+        },
+        {
+            "tag": "24",
+            "patterns": [
+                "berapa sks mata kuliah kaya harus ambil",
+                "berapa jumlah maksimum sks matkul kaya dapat ambil",
+                "jumlah sks mata kuliah kaya wajib variasi dasar program studi jenjang didik tinggi",
+                "berapa jumlah mata kuliah kaya wajib ambil",
+                "berapa jumlah sks mata kuliah kaya wajib ambil",
+                "brp sks harus ambil kaya",
+                "berapa sks matkul kaya bisa ambil",
+                "berapa jumlah sks kaya wajib ambil",
+                "berapa mata kuliah kaya wajib ambil masa kuliah",
+                "berapa jumlah sks mk kaya wajib ambil"
+            ],
+            "responses": [
+                "1.\tSebanyak 6 sks wajib diambil mahasiswa dengan mengambil mata kuliah yang ditawarkan oleh program studi lain di dalam ITS melalui mata kuliah pengayaan.\n2.\tSelebihnya sebanyak 34 sks dapat difasilitasi dengan mengikuti kegiatan MBKM lainya, diantaranya:\na.\tBelajar di program studi lain di ITS selain mata kuliah pengayaan, e.g.  program Kredensial Mikro Mahasiswa Indonesia (KMMI)\nb.\tBelajar di Prodi yang sama di luar ITS, e.g. Pertukaran Pelajaran dengan kampus LN, program sasrabahu, program permata sakti, KMMI\nc.\tBelajar di Prodi yang berbeda di luar ITS e.g. Pertukaran Pelajaran dengan kampus LN, Prodi Ilmu Komputer UGM, program sasrabahu, program permata sakti, KMMI\nd.\tBelajar di luar PT, e.g. Magang Industri, Studi Independen, KKN Tematik, Penelitian, Berwirausaha, Asistensi Mengajar"
+            ]
+        },
+        {
+            "tag": "25",
+            "patterns": [
+                "guru tinggi apa dapat konversi tukar ajar",
+                "kampus apa dapat konversi tukar ajar",
+                "sebut guru tinggi dapat konversi program mbkm",
+                "ada batas jumlah mahasiswa dapat partisipasi program tukar ajar guru tinggi tentu",
+                "guru tinggi apa yang konversi tukar ajar",
+                "apa guru tinggi bisa konversi tukar ajar",
+                "guru tinggi negri yanh guna tukar ajar",
+                "tuker ui gk",
+                "universitas luar mana yang konversi tukar ajar",
+                "guru tinggi apa yang konversi program tukar ajar",
+                "apa universitas penuh syarat konversi"
+            ],
+            "responses": [
+                "\u2022\tPerguruan tinggi yang dapat dikonversi untuk pertukaran pelajar adalah dengan PT LN atau PT DN i.e. UI, UGM, ITB, IPB , UNAIR, UNPAD, BINUS, UNDIP bisa dikonversi dengan MK inti (wajib match up cpl >80%), MK Pilihan, MK Pengayaan, MK ITS\n\u2022\tDengan PT lainya: tidak diakui"
+            ]
+        },
+        {
+            "tag": "26",
+            "patterns": [
+                "berapa lama minimal magang industri",
+                "berapa lama minimal magang",
+                "berapa minimal semester harus jalan mahasiswa kena program mbkm",
+                "lama minimal magang industri beda beda gantung jenis usaha sektor industri tentu",
+                "berapa lama minimal ikut magang industri dapat konversi",
+                "berapa lama minimal magang industri dapat konversi",
+                "berapa lama minimal magang industri dapat konversi jadi sks",
+                "brp lama minimal magang industri",
+                "berapa lama minimal lama magang industri dapat konversi",
+                "berapa lama waktu butuh magang industri dapat konversi",
+                "berapa waktu minimal magang hingga penuh syarat konversi",
+                "berapa lama minimal magang industri bisa konversi"
+            ],
+            "responses": [
+                "Minimal 6 bulan Full Time magang industri di Magang Bersertifikat/Program Kemendikbud"
+            ]
+        },
+        {
+            "tag": "27",
+            "patterns": [
+                "usaha apa aku magang industri",
+                "usaha apa dapat konversi magang industri",
+                "usaha apa aku konversi magang",
+                "usaha apa dapat konversi magang",
+                "usaha swasta konversi mata kuliah its",
+                "apa prosedur syarat laku orang mahasiswa konversi magang industri usaha tentu lalu program mbkm",
+                "usaha apa yang konversi magang industri",
+                "apa usaha bisa konversi magang industri",
+                "usaha apa yang masuk",
+                "apa magang shopee",
+                "usaha apa yang dikonverai lama magang industri",
+                "magang usaha mana bisa konversi"
+            ],
+            "responses": [
+                "Magang industri yang diakui adalah Magang Bersertifikat/Program Kemendikbud"
+            ]
+        },
+        {
+            "tag": "28",
+            "patterns": [
+                "mata kuliah apa dapat konversi magang industri",
+                "mata kuliah apa dapat konversi magang",
+                "sebut mata kuliah its dapat konversi magang",
+                "apa mata kuliah its dapat konversi magang",
+                "mata kuliah its apa dapat konversi giat magang",
+                "matkul apa semester dapat konversi pada magang",
+                "mata kuliah apa dapat konversi magang its",
+                "apa mata kuliah dapat konversi magang",
+                "apa mk bisa konversi magang"
+            ],
+            "responses": [
+                "\u2022\tMagang industri yang diakui adalah Magang Bersertifikat/Program Kemendikbud minimal 6 bulan Full Time, Mata kuliah apa yang dapat dikonversi untuk magang industri adalah dengan MK Pilihan Magang Industri atau MK Pilihan lab. atau MK Pengayaan ITS\n\u2022\tLainya dapat dikonversi dengan MK Pilihan magang industri"
+            ]
+        },
+        {
+            "tag": "29",
+            "patterns": [
+                "studi independen apa dapat aku",
+                "studi independen apa dapat konversi",
+                "semua studi independen konversi",
+                "apa program studi independen dapat konversi",
+                "apa contoh studi independen",
+                "apa program studi independen yg konversi",
+                "program studi independen konversi",
+                "studi independen apa yang konversi",
+                "apa program studi independen bisa konversi"
+            ],
+            "responses": [
+                "Studi independen yang dapat dikonversi adalah AWS, Google Bangkit, Dicoding"
+            ]
+        },
+        {
+            "tag": "30",
+            "patterns": [
+                "mata kuliah apa dapat konversi studi independen",
+                "sebut mata kuliah its dapat konversi studi independen",
+                "apa mata kuliah its dapat konversi studi independen",
+                "mata kuliah its apa dapat konversi giat studi independen",
+                "matkul apa semester dapat konversi pada studi independen",
+                "mata kuliah apa dapat konversi studi independen its",
+                "apa mata kuliah dapat konversi studi independen",
+                "apa mk bisa konversi studi independen"
+            ],
+            "responses": [
+                "Mata kuliah yang dapat dikonversi untuk studi independen adalah MK Pilihan, MK ITS, MK Pengayaan"
+            ]
+        },
+        {
+            "tag": "31",
+            "patterns": [
+                "mata kuliah apa dapat konversi kkn",
+                "mata kuliah apa dapat konversi kknt",
+                "mata kuliah apa dapat konversi kkn tematik",
+                "sebut mata kuliah its dapat konversi kkn",
+                "apa mata kuliah its dapat konversi kkn",
+                "mata kuliah its apa dapat konversi giat kkn",
+                "matkul apa semester dapat konversi pada kkn",
+                "mata kuliah apa dapat konversi kkn its",
+                "apa mata kuliah dapat konversi kkn",
+                "apa mk bisa konversi kkn",
+                "mata kuliah apa dapat konversi proyek manusia",
+                "sebut mata kuliah its dapat konversi proyek manusia",
+                "apa mata kuliah its dapat konversi proyek manusia",
+                "mata kuliah its apa dapat konversi giat proyek manusia",
+                "matkul apa semester dapat konversi pada proyek manusia",
+                "mata kuliah apa dapat konversi proyek manusia its",
+                "apa mata kuliah dapat konversi proyek manusia",
+                "apa mk bisa konversi proyek manusia"
+            ],
+            "responses": [
+                "Mata kuliah yang dapat dikonversi untuk KKN Tematik/Proyek kemanusian adalah MK Pengayaan KKN Tematik"
+            ]
+        },
+        {
+            "tag": "32",
+            "patterns": [
+                "mata kuliah apa dapat konversi teliti",
+                "sebut mata kuliah its dapat konversi teliti",
+                "apa mata kuliah its dapat konversi teliti",
+                "mata kuliah its apa dapat konversi giat teliti",
+                "matkul apa semester dapat konversi pada teliti",
+                "mata kuliah apa dapat konversi teliti its",
+                "apa mata kuliah dapat konversi teliti",
+                "apa mk bisa konversi teliti"
+            ],
+            "responses": [
+                "Mata kuliah yang dapat dikonversi untuk penelitian adalah MK Pilihan"
+            ]
+        },
+        {
+            "tag": "33",
+            "patterns": [
+                "mata kuliah apa dapat konversi wirausaha",
+                "sebut mata kuliah its dapat konversi wirausaha",
+                "apa mata kuliah its dapat konversi wirausaha",
+                "mata kuliah its apa dapat konversi giat wirausaha",
+                "matkul apa semester dapat konversi pada wirausaha",
+                "mata kuliah apa dapat konversi wirausaha its",
+                "apa mata kuliah dapat konversi wirausaha",
+                "apa mk bisa konversi wirausaha"
+            ],
+            "responses": [
+                "Mata kuliah yang dapat dikonversi untuk wirausaha adalah MK ITS (i.e. teknopreneur), MK Pilihan"
+            ]
+        },
+        {
+            "tag": "34",
+            "patterns": [
+                "mata kuliah apa dapat konversi asistensi ajar",
+                "sebut mata kuliah its dapat konversi asistensi ajar",
+                "apa mata kuliah its dapat konversi asistensi ajar",
+                "mata kuliah its apa dapat konversi giat asistensi ajar",
+                "matkul apa semester dapat konversi pada asistensi ajar",
+                "mata kuliah apa dapat konversi asistensi ajar its",
+                "apa mata kuliah dapat konversi asistensi ajar",
+                "apa mk bisa konversi asistensi ajar"
+            ],
+            "responses": [
+                "Mata kuliah yang dapat dikonversi untuk asistensi mengajar adalah MK Pilihan magang industri atau SKEM"
+            ]
+        },
+        {
+            "tag": "35",
+            "patterns": [
+                "boleh ikut mbkm sama",
+                "boleh ikut mbkm dua kali"
+            ],
+            "responses": [
+                "Sesuai surat edaran WR bidang akademik dan kemahasiswaan ITS Nomor : 757/IT2.I/T/TU.00.08/2022, mahasiswa tidak diijinkan mengikuti Bentuk Kegiatan Pembelajaran (BKP) Merdeka Belajar \u2013 Kampus Merdeka (MB-KM) kedua yang sama, kecuali BKP Pertukaran Pelajar."
+            ]
+        },
+        {
+            "tag": "36",
+            "patterns": [
+                "apa dokumen perlu konversi mbkm"
+            ],
+            "responses": [
+                "Konversi kegiatan MBKM dilakukan 1 kali dibuktikan dengan Dokumen FX01 yang telah ditandatangani oleh Mahasiswa, PJM MBKM BKP Terpilih, dan Dosen Wali. Alih kredit konversi kegiatan MBKM mengacu pada kesepakatan yang telah dicantumkan dalam FX01. Tidak diperkenankan mahasiswa untuk double claim. Double claim: 1 kegiatan MBKM mengajukan lebih dari 1 kali dokumen FX01 (konversi MK/alih kredit). "
+            ]
+        },
+        {
+            "tag": "37",
+            "patterns": [
+                "bagaimana kelas buka konversi",
+                "apa kelas perlu buka konversi mbkm",
+                "apa konversi matkul semester gasal",
+                "apa konversi matkul semester ganjil",
+                "apa konversi matkul semester genap"
+            ],
+            "responses": [
+                "Konversi dari BKP MBKM dapat mengambil MK dari semester genap maupun gasal tanpa ada persyaratan apakah kuliah tersebut dibuka atau tidak. "
+            ]
+        },
+        {
+            "tag": "38",
+            "patterns": [
+                "apa konversi pkm",
+                "apa konversi lomba",
+                "lomba konversi apa",
+                "pkm konversi apa"
+            ],
+            "responses": [
+                "Konversi dari prestasi PKM, Lomba, dapat dikonversikan dan dianggap BKP Studi Independent. Namun dapat mengambil BKP Studi independent lain di semester yang sama atau beda semester. Untuk konversi, total konversi MBKM tidak boleh lebih 40 sks. "
+            ]
+        },
+        {
+            "tag": "39",
+            "patterns": [
+                "ada batas laku konversi mata kuliah program mbkm",
+                "ada beda bijak konversi guru tinggi beda terap program mbkm",
+                "apa bijak konversi mbkm",
+                "apa atur konversi mbkm",
+                "apa syarat konversi mbkm",
+                "apa bijak konversi mkbm"
+            ],
+            "responses": [
+                "Sesuai surat edaran WR bidang akademik dan kemahasiswaan ITS Nomor : 757/IT2.I/T/TU.00.08/2022, mahasiswa tidak diijinkan mengikuti Bentuk Kegiatan Pembelajaran (BKP) Merdeka Belajar \u2013 Kampus Merdeka (MB-KM) kedua yang sama, kecuali BKP Pertukaran Pelajar.\nKonversi kegiatan MBKM dilakukan 1 kali dibuktikan dengan Dokumen FX01 yang telah ditandatangani oleh Mahasiswa, PJM MBKM BKP Terpilih, dan Dosen Wali. Alih kredit konversi kegiatan MBKM mengacu pada kesepakatan yang telah dicantumkan dalam FX01. Tidak diperkenankan mahasiswa untuk double claim. Double claim: 1 kegiatan MBKM mengajukan lebih dari 1 kali dokumen FX01 (konversi MK/alih kredit). \nKonversi dari BKP MBKM dapat mengambil MK dari semester genap maupun gasal tanpa ada persyaratan apakah kuliah tersebut dibuka atau tidak. \nKonversi dari prestasi PKM, Lomba, dapat dikonversikan dan dianggap BKP Studi Independent. Namun dapat mengambil BKP Studi independent lain di semester yang sama atau beda semester. Untuk konversi, total konversi MBKM tidak boleh lebih 40 sks. "
+            ]
+        },
+        {
+            "tag": "40",
+            "patterns": [
+                "apa jamin mutu mbkm",
+                "apa tuju tim jamin mutu mbkm",
+                "apa tugas tim jamin mutu mbkm",
+                "jelas fungsi tugas jamin mutu program mbkm",
+                "apa peran utama tim jamin mutu program mbkm guru tinggi lembaga didik",
+                "apa tugas tim jamin mutu program mbkm"
+            ],
+            "responses": [
+                "Tugas Tim Penjaminan Mutu:\n1.\tMenetapkan manual mutu untuk setiap kegiatan pada program MBKM di program studi\n2.\tMelaksanakan monitoring dan evaluasi setiap kegiatan pada program MBKM di program studi, termasuk:\na.\tMenentukan kelayakan mutu program MBKM yang diikuti oleh mahasiswa\nb.\tMenentukan jumlah sks alih kredit dan mapping mata kuliah dari program MBKM ke mata kuliah program studi\nc.\tMenyetujui formulir alih kredit dari kegiatan MBKM\nd.\tMemberikan pertimbangan penilaian hasil program MBKM"
+            ]
+        },
+        {
+            "tag": "41",
+            "patterns": [
+                "siapa tim jamin mutu tukar ajar",
+                "siapa anggota tim jamin mutu tukar ajar",
+                "apa tugas anggota tim jamin mutu program tukar ajar",
+                "berapa anggota tim jamin mutu tukar ajar",
+                "berapa banyak anggota tim jamin mutu butuh program tukar ajar",
+                "apa tim jamin mutu tukar ajar"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Pertukaran Pelajar:\nKetua: Ahmad Muklason, Ph.D.\n\nAnggota: \n1. Ika Nurkasanah, S.Kom., MS.c.\n2. Faizal Mahananto, Ph.D.\n3. Dr. Rarasmaya Indraswari, S.Kom"
+            ]
+        },
+        {
+            "tag": "42",
+            "patterns": [
+                "siapa tim jamin mutu magang industri",
+                "siapa anggota tim jamin mutu magang industri",
+                "apa tugas anggota tim jamin mutu program magang industri",
+                "berapa anggota tim jamin mutu magang industri",
+                "berapa banyak anggota tim jamin mutu butuh program magang industri",
+                "apa tim jamin mutu magang industri"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Magang Industri:\nKetua: Andre Parvian Aristion, S.Kom., M.Sc.\n\nAnggota:\n1. Bekti Cahyo H, S.Si, M.Kom.\n2. Faizal Johan Atletiko, S.Kom., M.T\n3. Rully Hendrawan, S.Kom, M.Eng"
+            ]
+        },
+        {
+            "tag": "43",
+            "patterns": [
+                "siapa tim jamin mutu asistensi ajar",
+                "siapa anggota tim jamin mutu asistensi ajar",
+                "apa tugas anggota tim jamin mutu program asistensi ajar",
+                "berapa anggota tim jamin mutu asistensi ajar",
+                "berapa banyak anggota tim jamin mutu butuh program asistensi ajar",
+                "apa tim jamin mutu asistensi ajar"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Asistensi Mengajar:\nKetua: Mahendrawathi, S.T., M.Sc., Ph.D\n\nAnggota: Rarastyas Nurita, S.Kom, MBA, Ph.D."
+            ]
+        },
+        {
+            "tag": "44",
+            "patterns": [
+                "siapa tim jamin mutu proyek manusia",
+                "siapa anggota tim jamin mutu proyek manusia",
+                "apa tugas anggota tim jamin mutu program proyek manusia",
+                "berapa anggota tim jamin mutu proyek manusia",
+                "berapa banyak anggota tim jamin mutu butuh program proyek manusia",
+                "apa tim jamin mutu proyek manusia"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Proyek Kemanusiaan:\nKetua: Dr. Mudjahidin, S.T., M.T.\nAnggota: Dr. Apol Pribadi S, S.T, M.T"
+            ]
+        },
+        {
+            "tag": "45",
+            "patterns": [
+                "siapa tim jamin mutu giat kewirausahaan",
+                "siapa anggota tim jamin mutu giat kewirausahaan",
+                "apa tugas anggota tim jamin mutu program giat kewirausahaan",
+                "berapa anggota tim jamin mutu giat kewirausahaan",
+                "berapa banyak anggota tim jamin mutu butuh program giat kewirausahaan",
+                "apa tim jamin mutu giat kewirausahaan"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Kegiatan Kewirausahaan:\nKetua: Ir. Achmad Holil Noor Ali, M.Kom\nAnggota: Radityo P. Wibowo, S.Kom, M.Kom"
+            ]
+        },
+        {
+            "tag": "46",
+            "patterns": [
+                "siapa tim jamin mutu studi independen",
+                "siapa anggota tim jamin mutu studi independen",
+                "apa tugas anggota tim jamin mutu program studi independen",
+                "berapa anggota tim jamin mutu studi independen",
+                "berapa banyak anggota tim jamin mutu butuh program studi independen",
+                "apa tim jamin mutu studi independen"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Studi Independen:\nKetua: Nisfu Asrul Sani, S.Kom., M.Sc.\nAnggota: \n1.\tDr. Eng. Febriliyan Samopa\n2.\t Amalia Utamima, Ph.D.\n3.\tRetno Aulia Vinarti, Ph.D."
+            ]
+        },
+        {
+            "tag": "47",
+            "patterns": [
+                "siapa tim jamin mutu bangun desa",
+                "siapa tim jamin mutu kkn",
+                "siapa anggota tim jamin mutu kkn",
+                "apa tugas anggota tim jamin mutu program kkn",
+                "berapa anggota tim jamin mutu kkn",
+                "berapa banyak anggota tim jamin mutu butuh program kkn",
+                "apa tim jamin mutu kkn"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu KKN/Membangun Desa:\nKetua: Izzat Aulia Akbar, Ph.D.\nAnggota: \n1. Dr. Bambang Setiawan\n2. Nur Aini, Ph.D."
+            ]
+        },
+        {
+            "tag": "48",
+            "patterns": [
+                "siapa tim jamin mutu teliti",
+                "siapa anggota tim jamin mutu teliti",
+                "apa tugas anggota tim jamin mutu program teliti",
+                "berapa anggota tim jamin mutu teliti",
+                "berapa banyak anggota tim jamin mutu butuh program teliti",
+                "apa tim jamin mutu teliti"
+            ],
+            "responses": [
+                "Tim Penjamin Mutu Penelitian:\nKetua: Renny Nadhifatin, Ph.D\nAnggota: Renny Pradina K, S.T, M.T"
+            ]
+        },
+        {
+            "tag": "49",
+            "patterns": [
+                "siapa tim teknis laksana program mbkm",
+                "siapa ketua anggota tim laksana program mbkm",
+                "siapa anggota tim teknis laksana program mbkm",
+                "apa anggota tim teknis laksana program mbkm",
+                "apa tim teknis laksana program mbkm",
+                "diri berapa orang tim teknik laksana program mbkm",
+                "apa tugas tim teknis laksa program mbkm"
+            ],
+            "responses": [
+                "Tim Teknis Pelaksanaan Program MBKM:\n\nKetua\t: Irvian (Mbak Vian)\nAnggota: Semua Tendik"
+            ]
+        },
+        {
+            "tag": "50",
+            "patterns": [
+                "bagaimana cara konversi kredit mbkm",
+                "bagaimana sop laksana program mbkm",
+                "bagaimana cara laku alihkredit program mbkm",
+                "apa prosedur alihkredit program mbkm",
+                "bagaimana cara alihkredit program mbkm",
+                "apa syarat alihkredit program mbkm",
+                "bagaimana prosedur alih kredit program mbkm",
+                "bagaimana cara konversi mbkm"
+            ],
+            "responses": [
+                "SOP Pelaksanaan Program MBKM\n\nSebelum Mengikuti Kegiatan MBKM\n1.\tBerkonsultasi dengan Dosen Tim Penjamin Mutu MBKM ITS kemudian ke dosen wali tentang kelayakan program yang akan diikuti\n2.\tMenunjukkan Acceptance Letter dari Institusi Mitra\n3.\tMengunduh form persetujuan transfer kredit (FX01) dI: https://intip.in/dsiformrencanambkm\n4.\tKhusus untuk Pertukaran Pelajar untuk mitra luar negeri juga harus mengisi form Learning agreement dari International Office (IO)/Drirektorat Kemitraan Global (DKG)\n5.\tMengisi draft form FX01 dengan memperhatikan:\na.\tAturan magang (untuk MBKM magang industri) lihat https://intip.in/dsiperaturanmagang;\nb.\tSilabus kurikulum departemen sistem informasi (untuk program MBKM lainya): bisa dilihat di: https://intip.in/dsisilabusmk; \nc.\tMata Kuliah Pengayaan: https://intip.in/dsidaftarmkpengayaanits\nd.\tMata Kuliah Umum ITS: Wastek, Teknopreneur\ne.\tMata Kuliah Umum MBKM ITS\n6.\tMenandatangani dan mengunggah draft form FX01 pada tautan: https://intip.in/dsipermohonanpersetujuanmbkm/\n7.\tBerkonsultasi dengan Dosen Tim Penjamin Mutu Program MBKM dan dosen wali untuk persetujuan transfer kredit;\n8.\tMengunggah Form Persetujuan Transfer kredit di: https://intip.in/dsirencanambkm\n9.\tFX01 harus sudah selesai ditandatangani dan disetujui sebelum perwalian untuk FRS dilakukan.\nKonversi Nilai Setelah Mengikuti Kegiatan MBKM\n1.\tMenyiapkan dokumen: \na.\tForm Persetujuan Alih Kredit\nb.\tLearning Agreement, jika dikoordinasi oleh DKG\nc.\tMinimal 1 Foto Kegiatan\nd.\tTranskrip Nilai Kegiatan MBKM dari mitra\ne.\tLog book: berisi catatan harian kegiatan yang dilakukan selama mengikuti MBKM\nf.\tLaporan Kegiatan [Khusus Magang] \ng.\tFile Presentasi Hasil Magang [khusus magang]\nh.\t Link Video Presentasi Hasil Magang yang diunggah di youtube (max durasi 20 menit) [khusus magang]\n2.\tMengunggah dokumen ke tautan:intip.in/dsialihkredit\n3.\tKhusus Magang: Ujian Lisan Presentasi Laporan Hasil Magang\n4.\tNilai Default sebelum nilai MBKM keluar: C\nDepartemen akan memasukkan nilai melalui ITS myMBKM\n\nProsedur alihkredit dari Lomba:  \n1.\tMengisi form FX01, ttd mahasiswa, kaprodi S1, dosen wali.\n2.\tMenyerahkan FX01 yang sudah ditandatangani ke dosen wali saat perwalian. Nanti dosen wali akan mengambilkan MK yang dikonversi melalui dropdown MBKM.\n3.\tMengupload Form Persetujuan Transfer kredit (FX01) di: https://intip.in/dsirencanambkm \n \nKetika kegiatan sudah selesai/diakhir semester\n1.\tMengunggah dokumen ke tautan:intip.in/dsialihkredit \n2.\tDokumen yang diunggah : \n\u2022\tForm Persetujuan Alih Kredit\n\u2022\tSurat pengakuan alihkredit dari Dirmawa, ditandatangani Direktur Kemahasiswaan\n\u2022\tMinimal 1 Foto Kegiatan"
+            ]
+        },
+        {
+            "tag": "51",
+            "patterns": [
+                "apa link fx",
+                "bisa dapat fx"
+            ],
+            "responses": [
+                "Mengunduh form persetujuan transfer kredit (FX01) dI: https://intip.in/dsiformrencanambkm"
+            ]
+        },
+        {
+            "tag": "52",
+            "patterns": [
+                "apa atur magang mbkm"
+            ],
+            "responses": [
+                "Aturan magang (untuk MBKM magang industri) lihat https://intip.in/dsiperaturanmagang"
+            ]
+        },
+        {
+            "tag": "53",
+            "patterns": [
+                "apa silabus kurikulum departemen sistem informasi",
+                "apa silabus kurikulum departemen si"
+            ],
+            "responses": [
+                "Silabus kurikulum departemen sistem informasi (untuk program MBKM lainya): bisa dilihat di: https://intip.in/dsisilabusmk"
+            ]
+        },
+        {
+            "tag": "54",
+            "patterns": [
+                "apa mata kuliah kaya"
+            ],
+            "responses": [
+                "Mata Kuliah Pengayaan: https://intip.in/dsidaftarmkpengayaanits"
+            ]
+        },
+        {
+            "tag": "55",
+            "patterns": [
+                "bagaimana cara konversi kredit lomba",
+                "bagaimana cara alihkredit lomba",
+                "apa langkah harus jalan mahasiswa alih kredit lomba",
+                "bagaimana proses evaluasi alihkredit laku tentu prestasi harga oleh lomba aku kredit akademik",
+                "apa prosedur alihkredit lomba",
+                "apa syarat alikhredit lomba",
+                "bagaimana prosedur alih kredit lomba",
+                "bagaimana konversi mbkm lomba"
+            ],
+            "responses": [
+                "Prosedur alihkredit dari Lomba:  \n1.\tMengisi form FX01, ttd mahasiswa, kaprodi S1, dosen wali.\n2.\tMenyerahkan FX01 yang sudah ditandatangani ke dosen wali saat perwalian. Nanti dosen wali akan mengambilkan MK yang dikonversi melalui dropdown MBKM.\n3.\tMengupload Form Persetujuan Transfer kredit (FX01) di: https://intip.in/dsirencanambkm \n \nKetika kegiatan sudah selesai/diakhir semester\n1.\tMengunggah dokumen ke tautan:intip.in/dsialihkredit \n2.\tDokumen yang diunggah : \n\u2022\tForm Persetujuan Alih Kredit\n\u2022\tSurat pengakuan alihkredit dari Dirmawa, ditandatangani Direktur Kemahasiswaan\n\u2022\tMinimal 1 Foto Kegiatan"
+            ]
+        }
+    ]
+}
